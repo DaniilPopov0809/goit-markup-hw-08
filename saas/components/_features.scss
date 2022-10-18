@@ -1,0 +1,56 @@
+.features-list {
+  @include tablet-max {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+  }
+
+  @include desktop {
+    display: flex;
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 25px 0;
+    
+
+    background-color: var(--grey-bgc);
+
+    @include tablet {
+      padding: 25px 142px;
+    }
+
+    @include desktop {
+      padding: 25px 100px;
+    }
+  }
+
+  &__description {
+    // line-height: 1.71;
+  }
+}
+
+.features-list__item {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  @include tablet {
+    flex-basis: calc((100% - 60px) / 2);
+  }
+
+  @include desktop {
+      flex-basis: calc((100% - 90px) / 4);
+
+      margin-right: 30px;
+
+      &:last-child {
+        margin-right: 0px;
+      }
+  }
+}

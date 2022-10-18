@@ -1,0 +1,46 @@
+.logo {
+  padding-top: 15px;
+  padding-bottom: 16px;
+
+  @include tablet {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 87px; 
+  }
+
+  @include desktop {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 92px;
+  }
+
+  &__link {
+    font-family: "Raleway", sans-serif;
+
+    color: var(--accent-color);
+    @include font(24px, 1.17, 700);
+
+    
+
+    @include desktop {
+      @include font(26px, 1.19, 700);
+    }
+  }
+
+  &__container {
+    color: var(--title-text-color);
+  }
+
+  &__link--footer {
+    display: block;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+    
+  }
+
+  &__container--footer {
+    color: var(--primary-white-color);
+  }
+}

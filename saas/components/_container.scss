@@ -1,0 +1,36 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @include mobile-max {
+    max-width: 480px;
+  }
+
+  @include tablet-desktop {
+    max-width: 768px;
+  }
+  @include desktop {
+    max-width: 1200px;
+  }
+
+  &--header {
+    @include mobile-max {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &--footer {
+    @include tablet-desktop {
+      padding-left: 76px;
+      padding-right: 89px;
+    }
+
+    @include desktop {
+      display: flex;
+      align-items: baseline;
+    }
+  }
+}
