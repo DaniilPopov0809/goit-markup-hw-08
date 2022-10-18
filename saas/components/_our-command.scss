@@ -41,17 +41,16 @@
   background-color: var(--primary-white-color);
 
   @include mobile-max {
-  
     &:not(:last-child) {
       margin-bottom: 30px;
     }
   }
 
-//   @include tablet {
-//     flex-basis: calc((100% - 30px) /2);
-//   }
+  //   @include tablet {
+  //     flex-basis: calc((100% - 30px) /2);
+  //   }
 
-//   @include desktop {
-//     flex-basis: calc((100% - 90px) /4);
-//   }
+  //   @include desktop {
+  //     flex-basis: calc((100% - 90px) /4);
+  //   }
 }

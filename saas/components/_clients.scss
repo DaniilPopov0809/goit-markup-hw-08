@@ -20,7 +20,7 @@
 .clients-list__item {
   @extend %flex-center;
 
-   @include mobile-max {
+  @include mobile-max {
     max-width: 210px;
     max-height: 92px;
   }
@@ -28,7 +28,7 @@
     max-width: 226px;
   }
 
-   @include desktop {
+  @include desktop {
     max-width: 170px;
   }
 }
@@ -43,7 +43,7 @@
   @include mobile-max {
     padding: 15px 51px;
   }
-  @media screen and (min-width: 768px) and  (max-width: 1199px){
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding: 15px 59px;
   }
 

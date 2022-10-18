@@ -3,6 +3,10 @@
   padding-bottom: 60px;
   background-color: var(--dark-grey-bgc);
 
+  @include mobile-max {
+    min-width: 480px;
+  }
+
   &__wrapper {
     @include mobile-max {
       margin-bottom: 60px;

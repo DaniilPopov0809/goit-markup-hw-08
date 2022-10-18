@@ -5,7 +5,7 @@
   @include tablet {
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-right: 87px; 
+    margin-right: 87px;
   }
 
   @include desktop {
@@ -19,8 +19,6 @@
 
     color: var(--accent-color);
     @include font(24px, 1.17, 700);
-
-    
 
     @include desktop {
       @include font(26px, 1.19, 700);
@@ -37,7 +35,6 @@
     margin-bottom: 20px;
 
     text-align: center;
-    
   }
 
   &__container--footer {

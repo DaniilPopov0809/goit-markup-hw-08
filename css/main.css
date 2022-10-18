@@ -189,7 +189,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 480px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -586,8 +586,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .hero {
-    width: auto;
-    max-width: 480px;
+    width: 480px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/studio/hero-mob@1x.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/studio/hero-mob@1x.jpg");
     background-repeat: no-repeat;
@@ -1229,6 +1228,11 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-grey-bgc);
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    min-width: 480px;
+  }
 }
 @media screen and (max-width: 767px) {
   .footer__wrapper {

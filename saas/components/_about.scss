@@ -1,9 +1,9 @@
 .section--about {
-    display: none;
+  display: none;
 
-    @include desktop{
-        display: block;
-    }
+  @include desktop {
+    display: block;
+  }
 }
 
 .about-list {
