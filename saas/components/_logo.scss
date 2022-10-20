@@ -33,8 +33,10 @@
     display: block;
 
     margin-bottom: 20px;
-
+    
+    @include tablet-max {
     text-align: center;
+    }
   }
 
   &__container--footer {

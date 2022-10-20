@@ -38,6 +38,12 @@
   }
 }
 
+.address {
+  @include desktop {
+    
+  }
+}
+
 .footer-list {
   @include font(14px, 1.71);
 
@@ -57,8 +63,9 @@
 }
 
 .footer-list__item {
+  @include tablet-max {
   text-align: center;
-
+  }
   &:not(:last-child) {
     margin-bottom: 8px;
   }
