@@ -573,7 +573,11 @@ body {
 .logo__link--footer {
   display: block;
   margin-bottom: 20px;
-  text-align: center;
+}
+@media screen and (max-width: 1199px) {
+  .logo__link--footer {
+    text-align: center;
+  }
 }
 .logo__container--footer {
   color: var(--primary-white-color);
@@ -1293,8 +1297,10 @@ body {
   color: var(--footer-text-color);
 }
 
-.footer-list__item {
-  text-align: center;
+@media screen and (max-width: 1199px) {
+  .footer-list__item {
+    text-align: center;
+  }
 }
 .footer-list__item:not(:last-child) {
   margin-bottom: 8px;

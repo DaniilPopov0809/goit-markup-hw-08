@@ -38,12 +38,6 @@
   }
 }
 
-.address {
-  @include desktop {
-    
-  }
-}
-
 .footer-list {
   @include font(14px, 1.71);
 
